@@ -19,7 +19,7 @@ python main.py --config configs/gsmnet.yaml
 ```
 python main.py --config configs/gsmnet.yaml  --checkpoint xxx --testing
 ```
-We provide preprocessed files and pretrained models in this [google drive](https://drive.google.com/file/d/1nEjVhv1rD8KWVDqVbkRiVyEbSePHUF4V/view?usp=sharing). 
+We provide pretrained models in this [google drive](https://drive.google.com/file/d/1nEjVhv1rD8KWVDqVbkRiVyEbSePHUF4V/view?usp=sharing). 
 
 ## Dataset
 
