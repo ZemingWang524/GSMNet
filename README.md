@@ -1,8 +1,6 @@
-# PMCGNN
-Official code repository of paper [Improving Crystal Property Prediction from a Multiplex Graph Perspective](https://pubs.acs.org/doi/10.1021/acs.jcim.4c01200)  
+# GSMNet 
 
 
-![cover](pmcgnn.svg)
 ## Environment Setup
 ```
 # Create a Conda environment (original env)
