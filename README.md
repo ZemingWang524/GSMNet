@@ -9,6 +9,26 @@ conda env create -f environment.yml
 # Activate the environment
 conda activate GSMNet-env
 ```
+
+## Dependencies
+The environment used for the results reported in the paper relies on these dependencies:
+```
+torch==2.4.0
+torch-scatter==2.1.2
+pytorch-ignite==0.5.2
+scikit-learn==1.6.1
+scipy==1.13.1
+pandas==2.2.3
+yacs==0.1.8
+jarvis-tools==2022.9.16 # Note that this version may be related to reproducibility
+numpy==1.26.4
+matplotlib=3.10.3
+dgl==2.4.0
+periodictable==2.0.2
+pydantic==2.11.4
+opt-einsum==3.4.0
+tensorboard==2.19.0
+```
 ## Summation Algorithm
 We used the summation algorithm from [PotNet](https://github.com/divelab/AIRS/tree/main/OpenMat/PotNet).
 ## Train Models

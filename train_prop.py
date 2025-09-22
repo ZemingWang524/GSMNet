@@ -342,7 +342,7 @@ def train_pyg(
         handler = Checkpoint(
             to_save,
             DiskSaver(checkpoint_dir, create_dir=True, require_empty=False),
-            n_saved=10,
+            n_saved=5,
             score_name="neg_mae",
             global_step_transform=lambda *_: trainer.state.epoch,
         )
