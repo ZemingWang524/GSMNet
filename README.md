@@ -102,6 +102,6 @@ Due to the presence of certain non-deterministic operations in PyTorch, some res
 
 ## Acknowledgement
 This repo is built upon the previous work PMCGNN's [[codebase]](https://github.com/yinhexingxing/PMCGNN/tree/main), licensed under the GPL-3.0 license.  
-This repo is partially based on GRIT's [[codebase]](https://github.com/LiamMa/GRIT/tree/main)
+This repo is partially based on GRIT's [[codebase]](https://github.com/LiamMa/GRIT/tree/main) and Mamba's [[codebase]](https://github.com/state-spaces/mamba).
 
 Thank you very much for these excellent codebases. 
