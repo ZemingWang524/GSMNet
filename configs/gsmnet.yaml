@@ -59,13 +59,12 @@ model:
   ssm: True  # enable SSM structure for infinite potential summation; only works when euclidean is False and transformer is True
   ksteps: 16 # RRWP
 
-  # Mamba SSM 参数
-  mamba_d_state: 128   # SSM 状态维度
-  # mamba_d_state: 64   # 实际上64足够
-  mamba_d_conv: 4     # 卷积核大小
-  mamba_expand: 4     # 内部扩展倍数
-  # mamba_expand: 2     # 实际上2足够
-  mamba_dt_rank: "auto"  # 时间步长投影维度，可以设置具体整数
-  mamba_dt_min: 0.001  # 最小时间步长
-  mamba_dt_max: 0.1    # 最大时间步长
-  mamba_dropout: 0.1   # Mamba 模块的 dropout 率
+  mamba_d_state: 128   
+  # mamba_d_state: 64   # 64 is sufficient
+  mamba_d_conv: 4
+  mamba_expand: 4
+  # mamba_expand: 2     # 2 is sufficient
+  mamba_dt_rank: "auto"  
+  mamba_dt_min: 0.001
+  mamba_dt_max: 0.1
+  mamba_dropout: 0.1
