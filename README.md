@@ -39,7 +39,11 @@ python main.py --config configs/gsmnet.yaml
 ```
 python main.py --config configs/gsmnet.yaml  --checkpoint xxx --testing
 ```
-We provide pretrained models in this [google drive](https://drive.google.com/file/d/1nEjVhv1rD8KWVDqVbkRiVyEbSePHUF4V/view?usp=sharing). 
+
+## Pre-trained Models
+Links to download pre-trained models:
+
+- [google drive](https://drive.google.com/file/d/1nEjVhv1rD8KWVDqVbkRiVyEbSePHUF4V/view?usp=sharing)
 
 ## Dataset
 
@@ -62,9 +66,9 @@ Results on MP Dataset:
 | GATGNN         | 0.033             | 0.280     | 0.045         | 0.075         |
 | ALIGNN         | 0.0221            | 0.218     | 0.051         | 0.078         |
 | Matformer      | 0.0210            | 0.211     | 0.043         | 0.073         |
-| PotNet         | 0.0188            | 0.204     | 0.040         | _0.065_       |
-| eComFormer     | _0.01816_         | 0.202     | 0.0417        | 0.0729        |
-| iComFormer     | 0.01826           | _0.193_   | _0.038_       | 0.0637        |
+| PotNet         | 0.0188            | 0.204     | 0.040         | 0.065       |
+| eComFormer     | 0.01816         | 0.202     | 0.0417        | 0.0729        |
+| iComFormer     | 0.01826           | 0.193   | 0.038       | 0.0637        |
 | PMCGNN         | _0.0170_          | _0.186_   | 0.038         | _0.063_       |
 | CartNet        | 0.0175            | 0.188     | **0.033**     | 0.0645        |
 | GSMNet | **0.0168**     | **0.182** | _0.034_       | **0.0618**    |
@@ -85,9 +89,9 @@ Results on Jarvis Dataset:
 | Matformer      | 0.0325         | 0.137            | 0.035          | 0.300            | 0.064   |
 | PotNet         | 0.0294         | 0.127            | 0.032          | 0.270            | 0.055   |
 | eComFormer     | 0.0284         | 0.124            | 0.032          | 0.280            | _0.044_ |
-| iComFormer     | _0.0272_       | 0.122            | _0.0288_       | 0.260            | 0.047   |
-| PMCGNN         | 0.0278         | 0.122            | 0.029          | _0.250_          | **0.040** |
-| CartNet        | 0.0278         | 0.122            | **0.0264**     | 0.252            | _0.044_ |
+| iComFormer     | _0.0272_       | _0.122_            | 0.0288       | 0.260            | 0.047   |
+| PMCGNN         | 0.0278         | _0.122_            | 0.029          | _0.250_          | **0.040** |
+| CartNet        | 0.0278         | _0.122_            | **0.0264**     | 0.252            | _0.044_ |
 | GSMNet | **0.0271**  | **0.120**        | _0.0282_       | **0.227**        | **0.040** |
 
 
