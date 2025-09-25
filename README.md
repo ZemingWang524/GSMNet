@@ -1,8 +1,12 @@
 # GSMNet 
 
 
-## Environment Setup
+## Installation
 ```
+# Clone the repository
+git clone https://github.com/ZemingWang524/GSMNet.git
+cd GSMNet
+
 # Create a Conda environment (original env)
 conda env create -f environment.yml
 
