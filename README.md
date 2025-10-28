@@ -1,5 +1,7 @@
 # GSMNet 
 
+> **Note: The detailed model code will be released after the paper is accepted.**
+
 
 ## Installation
 ```
