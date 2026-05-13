@@ -1,6 +1,6 @@
 # GSMNet 
 
-> **Note: The detailed model code will be released after the paper is accepted.**
+An example implementation code for [GSMNet: A Geometry- and State-Driven Multiplex Graph Neural Network for Crystal Property Prediction](https://www.sciencedirect.com/science/article/pii/S0927025626002508)
 
 
 ## Installation
